@@ -4,12 +4,10 @@ public class Carro extends Veiculo {
 	
 	private int numPortas;
 	
-	
-	public Carro(String marca, String modelo, int numPortas) {
+	public Carro(String pMarca, String pModelo, int pNumPortas) {
 		
-		
-		super(marca, modelo);
-		this.numPortas=numPortas;
+		super(pMarca, pModelo);
+		this.numPortas = pNumPortas;
 		
 	}
 
@@ -17,8 +15,8 @@ public class Carro extends Veiculo {
 		return numPortas;
 	}
 
-	public void setNumPortas(int numPortas) {
-		this.numPortas = numPortas;
+	public void setNumPortas(int pNumPortas) {
+		this.numPortas = pNumPortas;
 	}
 	
 	@Override

@@ -4,18 +4,18 @@ public class Moto extends Veiculo {
 	
 	private String transmissao;
 	
-	public Moto(String marca, String modelo, String transmissao) {
+	public Moto(String pMarca, String pModelo, String pTransmissao) {
 		
-		super(marca, modelo);
-		this.transmissao = transmissao;
+		super(pMarca, pModelo);
+		this.transmissao = pTransmissao;
 	}
 
 	public String getTransmissao() {
-		return transmissao;
+		return this.transmissao;
 	}
 
-	public void setTransmissao(String transmissao) {
-		this.transmissao = transmissao;
+	public void setTransmissao(String pTransmissao) {
+		this.transmissao = pTransmissao;
 	}
 	
 	@Override

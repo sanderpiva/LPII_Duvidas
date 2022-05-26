@@ -5,18 +5,18 @@ public class Veiculo {
 	private String marca;
 	private String modelo;
 
-	public Veiculo(String marca, String modelo) {
+	public Veiculo(String pMarca, String pModelo) {
 
-		this.marca = marca;
-		this.modelo = modelo;
+		this.marca = pMarca;
+		this.modelo = pModelo;
 	}
 
 	public String getMarca() {
 		return this.marca;
 	}
 
-	public void setMarca(String marca) {
-		this.marca = marca;
+	public void setMarca(String pMarca) {
+		this.marca = pMarca;
 	}
 
 	public String getModelo() {
@@ -24,8 +24,8 @@ public class Veiculo {
 	}
 
 
-	public void setModelo(String modelo) {
-		this.modelo = modelo;
+	public void setModelo(String pModelo) {
+		this.modelo = pModelo;
 	}
 
 	public String dadosFormatados() {
